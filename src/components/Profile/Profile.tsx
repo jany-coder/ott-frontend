@@ -18,7 +18,7 @@ const Profile = () => {
                         onClick={() => setEditProfile(!editProfile)}
                         type="button"
                         className="inline-block bg-gray-200 ease hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-gray-500">
-                        Edit Profile
+                        {editProfile ? <span>Close Edit</span> : <span>Edit Profile</span>}
                     </button>
                 </div>
             </div>
