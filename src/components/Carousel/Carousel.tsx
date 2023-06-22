@@ -6,9 +6,6 @@ const Carrousel = () => {
     return (
         <Carousel showThumbs={false}>
             <div>
-                <img alt='' src={'https://mdbcdn.b-cdn.net/img/new/slides/041.webp'} />
-            </div>
-            <div>
                 <img alt='' src={"https://mdbcdn.b-cdn.net/img/new/slides/042.webp"} />
             </div>
             <div>
