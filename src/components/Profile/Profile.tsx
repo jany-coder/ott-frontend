@@ -8,6 +8,7 @@ const Profile = () => {
                 <div> <span className='font-bold'> Name:</span> Md. Azizul Haque Jany</div>
                 <div> <span className='font-bold'> Gender:</span> Male</div>
                 <div> <span className='font-bold'> Date of Birth:</span> 10 Jun 1989</div>
+                <div> <span className='font-bold'> Active:</span> Yes</div>
             </div>
         </section>
     );
